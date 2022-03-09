@@ -12,7 +12,7 @@ namespace DefaultNamespace {
         public void Init(EarthController controller) {
             controller.CameraController.AddListenerOnChangeDistance(ChangeDistanceText);
             controller.AddListenerOnChangeWeather(ChangeWeatherText);
-            tutorialPanel.DOFade(0, 5);
+            tutorialPanel.DOFade(0, 10);
         }
 
         private void ChangeDistanceText(float distance) {
